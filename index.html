@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thomas Scales Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <script
+      src="https://kit.fontawesome.com/f3d701d41c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts      -->
+
+    <header>
+      <a href="#" class="logo">Thomas Scales</a>
+
+      <nav class="navbar">
+        <a class="active" href="#about">about</a>
+        <a href="#tech">tech</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#goals">goals</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a
+          href="https://github.com/IAmTommyZombie"
+          target="_blank"
+          class="fa-brands fa-github"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/thomasscales/"
+          target="_blank"
+          class="fa-brands fa-linkedin"
+        ></a>
+        <a href="#contact" class="fa-solid fa-address-card"></a>
+      </div>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="This is just for looks! Cool huh?"
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">About me</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/Tommy_lobster.jpeg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Hi, I'm Thomas</h3>
+          <p>
+            A front end developer focused on building responsive websites and
+            user experiences.
+          </p>
+
+          <div class="icons-container">
+            <div class="icons">
+              <span>Fast learner</span>
+            </div>
+            <div class="icons">
+              <span>Hard worker</span>
+            </div>
+            <div class="icons">
+              <span>Creative Mind</span>
+            </div>
+          </div>
+          <a href="Thomas_Scales_resume.pdf" target="_blank" class="btn-resume"
+            >View Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- dishes section starts  -->
+
+    <section class="dishes" id="tech">
+      <h3 class="sub-heading"></h3>
+      <h1 class="heading">Technical Stack</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/HTML.png" alt="" />
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/CSS.png" alt="" />
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/JS.png" alt="" />
+          <h3>Javascript</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/React.png" alt="" />
+          <h3>React</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/Node.png" alt="" />
+          <h3>Node.js</h3>
+        </div>
+
+        <div class="box">
+          <img src="images/Mongo.png" alt="" />
+          <h3>MongoDB</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- dishes section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="portfolio">
+      <h1 class="heading">Portfolio</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/project_1.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/navbar_multi_dropdown/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Multi-level Dropdown Navbar</h3>
+            <p>
+              A simple landing page template with a responsive multi-level
+              dropdown navbar
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/navbar_multi_dropdown/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_2.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_music_player/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Music player</h3>
+            <p>
+              A music player that plays my band Between Skies's EP "Horizons".
+              Uses a CSS rotate effect to spin the record, and custom Javascript
+              functions to play through each song. Also has a progress bar that
+              updates as the song plays
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_music_player/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_8.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/profile_card/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Profile Card</h3>
+            <p>
+              A simple profile card template. All buttons and icons have CSS
+              hover effects. Uses Javascript to show and hide the profile photo
+              on top of a modal
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/profile_card/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_9.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_pokedex/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Pokedex</h3>
+            <p>
+              A pokedex that fetches an api and displays the data on each
+              pokemon.
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_pokedex/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_7.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/side_navbar_template/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Side Navbar Template</h3>
+            <p>
+              Landing page template with a collapsable side navbar. Uses custom
+              Javascript functions to collapse navbar and add a CSS class to
+              highlight which part of the nav that is being hovered over
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/side_navbar_template/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_10.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/contact_form/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Contact Form</h3>
+            <p>
+              A contact form template that uses custom Javascript functions and
+              CSS styling to change the input forms when focused upon or there
+              is content inside
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/contact_form/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_3.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/3d_product_card/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>3D Product Card</h3>
+            <p>
+              A template of a product card that uses CSS effects to have a
+              floating animation on the product, and a rotating effect between
+              the two cards to give a 3d effect
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/3d_product_card/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_11.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/signup_signin_form/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Sign Up/Sign In Form</h3>
+            <p>
+              A sign up form that uses custom Javascript functions and CSS
+              animations to turn into a sign in form, and vice versa. Form
+              inputs also animate upon focus and if there is data entered in the
+              form fields
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/signup_signin_form/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_12.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/day_night_template/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Day/Night Landing Page</h3>
+            <p>
+              Landing page template navbar and day/night toggle using custom
+              javascript functions to toggle CSS styled day/night classes
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/day_night_template/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_5.png" alt="" />
+            <a
+              href="https://tommy-memories.web.app/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>MERN Memories</h3>
+            <p>
+              A full stack application built with React, that allows the user to
+              Create, Update, or Delete photos and information. CRUD functions
+              are used with MongoDB to store data, and Node and Express used to
+              pair the data to the application
+            </p>
+            <a
+              href="https://tommy-memories.web.app/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">React, MongoDB, CSS, Node.js, Express.js</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/project_6.png" alt="" />
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_wordle_js/"
+              target="_blank"
+              class="fas fa-eye"
+            ></a>
+          </div>
+          <div class="content">
+            <h3>Wordle Clone</h3>
+            <p>
+              A wordle clone that iterates and randomizes an array of words each
+              game to use as the "wordle", and gives players six guesses to
+              figure out what the wordle is. Shows correct letters, correct
+              spots, and incorrect letters on the keyboard
+            </p>
+            <a
+              href="https://iamtommyzombie.github.io/vanilla_wordle_js/"
+              target="_blank"
+              class="btn"
+              >Check it out!</a
+            >
+            <span class="price">HTML, CSS, Javascript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="goals">
+      <h1 class="heading">my goals</h1>
+
+      <div class="review-slider">
+        <div class="">
+          <div class="slide">
+            <div class="user">
+              <div class="user-info">
+                <h3>Where I started</h3>
+              </div>
+            </div>
+            <p>
+              I became interested in Front-end development during the quarantine
+              of 2020. I started taking courses through Harvard Extension School
+              during this time and fell in love with developing projects. My
+              creative experiences of being a bartender, cook, and musician have
+              made web development a very enjoyable creative process.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="user">
+              <div class="user-info">
+                <h3>Where I'm at</h3>
+              </div>
+            </div>
+            <p>
+              I have established a solid foundation working with HTML, CSS, and
+              Javascript, and am able to build various responsive layouts with
+              confidence. I also have some experience with React (using State
+              and Effect hooks specifically) to dynamically render components,
+              and some experience with Node, Express, and MongoDB to produce
+              MERN stack applications and API's.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="user">
+              <div class="user-info">
+                <h3>What's next</h3>
+              </div>
+            </div>
+            <p>
+              For future projects, I'm excited to try out some complex CSS
+              challenges, incorporate more animations into my projects, and gain
+              more experience using React and Node.js.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer" id="contact">
+      <div class="box-container">
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="tel:+339-224-1974">339-224-1974</a>
+
+          <a href="email:ThomasScales1@gmail.com">ThomasScales1@gmail.com</a>
+          <a href="https://github.com/IAmTommyZombie" target="_blank"
+            >IAmTommyZombie
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
